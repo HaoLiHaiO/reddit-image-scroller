@@ -10,17 +10,17 @@ go build -o ./bin/image-scroller
 ```
 
 ```sh
-./image-scroller
+./bin/image-scroller
 ```
 
 # Usage
 
 ```sh
-./build/image-scroller --help
+./bin/image-scroller --help
 ```
 
 ## Example
 
 ```sh
-./build/image-scroller --subreddit=Nintendo --limit=50 --download=true
+./bin/image-scroller --subreddit=Nintendo --limit=50 --download=true
 ```
